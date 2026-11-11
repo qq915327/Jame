@@ -1,0 +1,11 @@
+{
+  "name": "vkm-demo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VKM 演示交易所后端：账号、余额、现货/合约委托与后台管理（仅演示）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" }
+}
