@@ -1,0 +1,14 @@
+{
+  "name": "vkm-demo-exchange",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VKM 演示交易所：Node 后端 + 单页前端（仅演示用途）",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "node -e \"console.log('无需编译，静态文件与后端源码直接运行')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
