@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: vkm-exchange
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: SITE_CODE
+        sync: false
+      - key: DATA_DIR
+        value: /var/data
+    disk:
+      name: vkm-data
+      mountPath: /var/data
+      sizeGB: 1
